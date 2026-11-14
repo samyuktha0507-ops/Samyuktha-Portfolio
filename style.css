@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ff;
+    color: #454052;
+}
+
+header {
+    background-color: #e6dcfa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #51436d;
+    margin: 10px;
+}
+
+.home {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.home img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d5c5f5;
+}
+
+section {
+    margin: 25px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #8065ad;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #e9e0fa;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.project {
+    background-color: #f4efff;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6dcfa;
+}
